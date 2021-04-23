@@ -1,22 +1,3 @@
-body {
-    color: white;
-    font-family: "Bitter", serif;
-    background-color: #1F1F1F;
-
-}
-
-a:link {
-    color: #15B8CF;
-}
-
-a:visited {
-    color: #337CFF;
-}
-
-a:hover {
-    color: #33adff;
-}
-
 .webgl-content * {border: 0; margin: 0; padding: 0}
 .webgl-content {position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
 
