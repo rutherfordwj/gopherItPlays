@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | 2d_platform</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/gopherItPlays.json", {onProgress: UnityProgress});
-    </script>
-  </head>
-  <body>
-    <div class="webgl-content">
-      <div id="unityContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">2d_platform</div>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Gopher it! | by Weston</title>
+  <link rel="shortcut icon" href="TemplateData/favicon.ico">
+  <link rel="stylesheet" href="TemplateData/style.css">
+  <script src="TemplateData/UnityProgress.js"></script>
+  <script src="Build/UnityLoader.js"></script>
+  <script>
+    var unityInstance = UnityLoader.instantiate("unityContainer", "Build/gopherItPlays.json", { onProgress: UnityProgress });
+  </script>
+</head>
+
+<body>  
+      <div class="webgl-content">
+        <div id="unityContainer" style="width: 960px; height: 600px"></div>
+        <div class="footer">
+          <div class="webgl-logo"></div>
+          <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+          <div class="title">Gopher it! | by <a href="https://wjr.dev/">Weston</a></div>
+        </div>
+        </br></br>
+        <p>Sources and References:
+          </br>&nbsp;&nbsp;Graphics were made by me.
+          </br>&nbsp;&nbsp;<a href="https://www.youtube.com/c/ariesbeats">Music by Aries Beats</a>
+          </br>&nbsp;&nbsp;<a href="https://zapsplat.com">Sound Effects from ZapSplat</a>
+          </br>&nbsp;&nbsp;<a href="https://www.youtube.com/watch?v=bY4Hr2x05p8">Combat Mechanics reference</a>
+          </br>&nbsp;&nbsp;<a href="https://www.youtube.com/watch?v=ACf1I27I6Tk">Camera Shake reference</a>
+          </br></br>Unity assets used:
+          </br>&nbsp;&nbsp;Cinemachine
+          </br>&nbsp;&nbsp;TextMeshPro
+        </p>
       </div>
-    </div>
-  </body>
+</body>
+
 </html>
